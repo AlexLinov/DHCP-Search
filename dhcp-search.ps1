@@ -7,4 +7,4 @@ $results = foreach ($dhcpServer in $dhcpServers) {
 	}
 }
 
-Write-Output $results | Select IPAddress, ClientId | Select -Unique
+Write-Output $results | Select IPAddress, ClientId, HostName | Select -Unique
