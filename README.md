@@ -3,6 +3,4 @@ Quick and dirty PowerShell Script to find an IP lease in all DHCP Scopes. After 
 
 Work in progress.
 
-```
-Powershell -ep bypass \\If needed
-```
+`Powershell -ep bypass \\If needed`
