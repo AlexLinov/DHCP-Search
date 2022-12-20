@@ -25,4 +25,4 @@ $results = foreach ($dhcpServer in $dhcpServers) {
 	}
 }
 
-Write-Output $results | Select IPAddress, ClientId, HostName | Select -Unique
+Write-Output $results | Select IPAddress, ClientId, Name | Select -Unique #prints out IP Address, MAC Address and Hostname
